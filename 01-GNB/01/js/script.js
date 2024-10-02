@@ -14,4 +14,5 @@ $(function () {
         $submenu.stop().slideUp(duration);
         $(this).removeClass("on");
     });
+    // 안녕
 });
