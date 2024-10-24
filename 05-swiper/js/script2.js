@@ -7,7 +7,7 @@ const topSlider = new Swiper(".top-slider", {
     effect: "slide", // slide, fade, cube, flip, coverflow
 
     // 캐러셀 만들기
-    slidesPerView: 1, // 보여질 슬라이드 갯수
+    slidesPerView: "auto", // 보여질 슬라이드 갯수
     spaceBetween: 20, //간격 20px
     centeredSlides: true, //첫번째 슬라이드를 가운데로
 

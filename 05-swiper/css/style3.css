@@ -15,13 +15,17 @@ img {
     height: 100%;
     object-fit: cover;
 }
-.top-slider {
-    width: 1200px;
-    height: 500px;
+.slider-wrap {
+    width: 90%;
     margin: 50px auto;
     border: 10px solid #000;
 }
-.swiper-slide {
-    width: 500px;
+.top-slider {
+    height: 600px;
 }
-/*  */
+.bottom-slider {
+    height: 160px;
+}
+.swiper-slide-thumb-active {
+    border: 5px solid #f00;
+}
